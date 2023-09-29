@@ -65,4 +65,4 @@ async def predict_api(request: Request, email: str = Form(...), model: str = For
 #  uvicorn main:app  --host 0.0.0.0 --port 9999
 if __name__ == "__main__":
     #uvicorn.run(app, debug=True)
-    uvicorn.run(app, port=8080, host='0.0.0.0')
+    uvicorn.run(app, port=8081, host='0.0.0.0')
